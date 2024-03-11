@@ -1,0 +1,163 @@
+*{
+    font-family: 'Anta', sans-serif; 
+   
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #343541;
+    display:flex;
+    
+    
+}
+h1{
+    font-size:33px;
+    font-weight:600;
+    padding:200px 0;
+}
+.side-bar{
+    background-color: #202123;
+    width:280px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: yellow;
+       
+}
+.side-bar button{
+    color: yellow;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height:100vh;
+    width: 100%;
+}
+.info{
+    color:yellow;
+    font-size:10px;
+    padding:10px;
+}
+input{
+    border:none;
+    background-color:rgba(255,255,255,0.05);
+    width:100%;
+    font-size:20px;
+    padding:12px 15px;
+    border-radius: 5px;
+    color:yellow;
+    box-shadow: rgb(0,0,0,0.05) 0 54px 55px,
+    rgb(0,0,0,0.05) 0 -12px 30px,
+    rgb(0,0,0,0.05) 0 4px 6px,
+    rgb(0,0,0,0.09) 0 -3px 5px
+
+}
+input:focus{
+    outline:none;
+}
+.input-container{
+    width:100%;
+    max-width: 650px;
+   position:relative;
+}
+.input-container #submit{
+    position:absolute;
+    right:10px;
+    bottom:15px;
+    cursor:pointer;
+}
+.bottom-section{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: solid 0.5px rgba(255,255,255,0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px;
+    color: white;
+}
+
+.history{
+    padding:10px;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+.history p{
+    cursor:pointer;
+}
+.main span{
+    color:yellow;
+}
+.main h1{
+    font-size: 50px;
+   
+}
+/* inspired from this svgbackgrounds.com/ */
+.button {
+   
+    width: fit-content;
+    display: flex;
+    padding: 0.8em 1.1em;
+    gap: 0.4rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: linear-gradient(
+        15deg,
+        #880088,
+        #aa2068,
+        #cc3f47,
+        #de6f3d,
+        #f09f33,
+        #de6f3d,
+        #cc3f47,
+        #aa2068,
+        #880088
+      )
+      no-repeat;
+    background-size: 300%;
+    background-position: left center;
+    transition: background 0.3s ease;
+    color: #fff;
+  }
+  
+  .button:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .button:hover svg {
+    fill: #fff;
+  }
+  
+  .button svg {
+    width: 23px;
+    fill: #f09f33;
+    transition: 0.3s ease;
+  }
+  .but{
+   
+    position:absolute;
+    right:0px;
+    
+  }
+  .nav p{
+    color:yellow;
+  }
+  .main h1{
+    color:yellow;
+  }
